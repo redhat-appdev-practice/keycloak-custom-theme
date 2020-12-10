@@ -30,3 +30,7 @@ This is an example Maven project which can be packaged to provide a custom theme
 1. Package your theme as a JAR file
    * `mvn clean package`
 1. Copy the JAR file to `<keycloak>/standalone/deployments/`
+
+Once this is complete and you log in to the KeyCloak admin console you will be able to select `<theme name>` from the list of options as shown below:
+
+![Theme selection screenshot](screenshot.png)
